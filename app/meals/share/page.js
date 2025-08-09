@@ -47,8 +47,7 @@ export default function ShareMealPage() {
               required
             ></textarea>
           </p>
-          <label htmlFor="image">IMAGE PICKER</label>
-          <ImagePicker label="Your iamge" name="image" />
+          <ImagePicker label="Your image" name="image" />
           {state.message && <p>{state.message}</p>}
           <p className={classes.actions}>
             <MealsFromSubmit />
